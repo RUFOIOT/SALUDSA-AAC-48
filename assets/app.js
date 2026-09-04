@@ -186,6 +186,17 @@ registerView("sesion", (code)=>{
     el("span",{class:"deck-code"}, s.code),
     el("h1",{class:"deck-title"}, s.title),
 
+    el("div",{class:"grid cols-2", style:"margin-top:6px"},
+      el("a",{class:"card", href:"slides.html#"+s.code, style:"text-decoration:none;display:block;border-color:rgba(216,177,104,.35)"},
+        el("h4",null,"📽️ Slides de la sesión"),
+        el("p",null,"Teoría y práctica en deck cinemático, pantalla completa — material para repasar la clase.")
+      ),
+      el("a",{class:"card", href:"build.html#"+s.code, style:"text-decoration:none;display:block;border-color:rgba(79,216,220,.35)"},
+        el("h4",null,"🛠️ Build Hub"),
+        el("p",null,"Manual de práctica: teoría, recursos, guion del aula y laboratorio con criterio de aceptación.")
+      )
+    ),
+
     el("div",{class:"deck-block"},
       el("span",{class:"db-label"},"Objetivo verificable"),
       el("div",{class:"objetivo-box"}, s.objetivo)

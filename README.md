@@ -13,6 +13,15 @@ Código fuente del hub: `index.html` + `assets/` (`sessions-data.js`, `app.js`, 
 
 > Las "sesiones gráficas" pedidas se implementaron como este hub interactivo (cada sesión es una vista cinematográfica navegable) en vez de 14 archivos `.md` estáticos adicionales — mayor fidelidad visual sin duplicar la fuente de verdad en `02_Sesiones/`.
 
+### 📽️ Slides + 🛠️ Build Hub — material del alumno por sesión
+
+Cada una de las 14 sesiones tiene, como recurso propio (enlazado desde su ficha en el hub), dos formatos del mismo contenido — toda la teoría (`00_Base_Pensum/01_Syllabus_Sesiones.md`) y toda la práctica (`00_Base_Pensum/02_Laboratorios.md`), aplicadas al proyecto SALUDSA:
+
+- **`slides.html#S01`…`#S14`** — deck cinemático a pantalla completa: una idea por diapositiva, navegación por teclado (`←/→`, `espacio`), pantalla completa (`f`), clic en los costados para avanzar/retroceder. Objetivo → marco conceptual → teoría → demo → cómo se ejecutó en el aula SALUDSA → laboratorio → criterio de aceptación → cierre con vínculo al proyecto.
+- **`build.html#S01`…`#S14`** — manual de práctica en página larga: mismo contenido en formato de lectura/consulta, más los recursos RCTFX/Datasets cruzados automáticamente por sesión y el guion del aula con barra de tiempo proporcional.
+
+Datos en `assets/session-content.js` (`THEORY`, `LABS`). Motor de cada formato: `assets/slides.js` / `assets/build.js`.
+
 ## Empieza aquí
 1. `01_Programa/01_Programa_SALUDSA.md` — documento rector: adaptabilidad a medicina prepagada (confirmada con 3 condiciones), matriz regulatoria, mapa sesión → proyecto, calendario, roles, go/no-go.
 2. `06_Operacion/checklist_arranque.md` — lo que SALUDSA, ORION y Autoploy deben tener listo.

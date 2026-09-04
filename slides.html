@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slides · SALUDSA AAC-48</title>
+<meta name="description" content="Slides cinemáticas de teoría y práctica de cada sesión del cohorte SALUDSA-AAC-48.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23060b16'/%3E%3Ccircle cx='50' cy='50' r='22' fill='none' stroke='%23d8b168' stroke-width='6'/%3E%3Ccircle cx='50' cy='50' r='6' fill='%234fd8dc'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/slides.css">
+</head>
+<body>
+
+<div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+
+<div class="deck-shell">
+  <div class="deck-topbar">
+    <a id="backLink" href="index.html#mapa">← <span id="sessionLabel">Cargando…</span></a>
+    <div class="dt-right">
+      <a id="buildLink" href="#">🛠️ Build Hub</a>
+      <span id="counter" class="mono">1 / 1</span>
+    </div>
+  </div>
+
+  <div class="slide-stage" id="stage"></div>
+
+  <div class="deck-controls">
+    <a id="prevSession" style="color:var(--mist);text-decoration:none">‹ sesión</a>
+    <button id="btnPrev" title="Anterior (←)">‹</button>
+    <div class="deck-dots" id="dots"></div>
+    <button id="btnNext" title="Siguiente (→ / espacio)">›</button>
+    <button id="btnFull" title="Pantalla completa (f)">⛶</button>
+    <a id="nextSession" style="color:var(--mist);text-decoration:none">sesión ›</a>
+  </div>
+</div>
+
+<script src="assets/sessions-data.js"></script>
+<script src="assets/session-content.js"></script>
+<script src="assets/slides.js"></script>
+</body>
+</html>
