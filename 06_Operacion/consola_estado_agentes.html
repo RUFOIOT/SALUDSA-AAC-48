@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>Consola de estado — Agentes SALUDSA</title>
+<style>
+:root{--bg:#0f1720;--card:#16212e;--tx:#e8eef5;--mut:#8fa3b8;--ok:#2ecc71;--warn:#f1c40f;--bad:#e74c3c;--acc:#4da3ff}
+body{margin:0;font:18px/1.45 system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--tx);padding:24px}
+h1{font-size:28px;margin:0 0 4px}h2{font-size:22px;margin:28px 0 12px}.mut{color:var(--mut);font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.card{background:var(--card);border-radius:14px;padding:18px}.card .v{font-size:40px;font-weight:700;margin:6px 0}.card .l{color:var(--mut);font-size:15px}
+.sem{display:inline-block;width:14px;height:14px;border-radius:50%;margin-right:8px;vertical-align:middle}
+table{width:100%;border-collapse:collapse;background:var(--card);border-radius:14px;overflow:hidden}th,td{padding:12px 14px;text-align:left;border-bottom:1px solid #223040;font-size:17px}th{color:var(--mut);font-weight:600}
+.tag{padding:3px 10px;border-radius:999px;font-size:14px;font-weight:600}.ALTO{background:#4a1f1f;color:#ff8a80}.MEDIO{background:#4a3f10;color:#ffd54f}.BAJO{background:#173d28;color:#7ee2a8}
+textarea{width:100%;min-height:120px;background:#0b1118;color:var(--tx);border:1px solid #223040;border-radius:10px;padding:10px;font:15px monospace}
+button{background:var(--acc);color:#04111f;border:0;border-radius:10px;padding:10px 16px;font-size:16px;font-weight:700;cursor:pointer;margin-top:8px}
+</style></head><body>
+<h1>Consola de estado — Agentes SALUDSA</h1>
+<div class="mut">Semana <span id="sem"></span> · Datos cargados por el equipo de supervisión de SALUDSA · Fuente: <code>Agentes-SALUDSA/supervision/AAAA-SS.md</code></div>
+<h2>Indicadores de la semana</h2>
+<div class="grid" id="cards"></div>
+<h2>Semáforo por agente</h2>
+<div class="grid" id="agentes"></div>
+<h2>Conversaciones de riesgo ALTO pendientes de revisión humana</h2>
+<table><thead><tr><th>ID</th><th>Agente</th><th>Frontera</th><th>Riesgo</th><th>Revisor</th><th>Estado</th></tr></thead><tbody id="rows"></tbody></table>
+<h2>Datos (editar y aplicar)</h2>
+<textarea id="src"></textarea><br><button onclick="render(JSON.parse(document.getElementById('src').value))">Aplicar</button>
+<script>
+const demo={semana:"2026-46",kpis:[{l:"Tasa de escalamiento observada",v:"31 %",meta:"25–40 %",s:"ok"},{l:"Casos de regresión aprobados",v:"96/100",meta:"≥ 95 y 0 graves",s:"warn"},{l:"Respuestas con cita KB vigente",v:"88 %",meta:"≥ 95 %",s:"bad"},{l:"Costo acumulado del mes",v:"USD 412",meta:"≤ USD 900",s:"ok"}],
+agentes:[{n:"Isabel (P01)",s:"warn",d:"1 fallo grave pendiente (E11 carencia)"},{n:"Pep & Zizu (P02)",s:"ok",d:"0 piezas devueltas por Legal"},{n:"Conversión (HubSpot)",s:"ok",d:"Escrituras con confirmación: 100 %"},{n:"Inteligencia de leads",s:"ok",d:"Score 5 contactados <24h: 92 %"},{n:"Hiperpersonalización",s:"warn",d:"2 mensajes sin fuente KB"},{n:"Clasificador de tickets (piloto)",s:"ok",d:"Cola humana: 14 tickets"}],
+pendientes:[{id:"C0312",a:"Isabel",f:"Preexistencia",r:"ALTO",rev:"RN-03",e:"Pendiente"},{id:"C0327",a:"Isabel",f:"Consejo clínico",r:"ALTO",rev:"Auditoría Médica",e:"En revisión"},{id:"C0340",a:"Hiperpersonalización",f:"Claim sin KB",r:"MEDIO",rev:"Marketing",e:"Pendiente"}]};
+const col={ok:"var(--ok)",warn:"var(--warn)",bad:"var(--bad)"};
+function render(d){document.getElementById('sem').textContent=d.semana;
+document.getElementById('cards').innerHTML=d.kpis.map(k=>`<div class="card"><div class="l">${k.l}</div><div class="v"><span class="sem" style="background:${col[k.s]}"></span>${k.v}</div><div class="l">Meta: ${k.meta}</div></div>`).join('');
+document.getElementById('agentes').innerHTML=d.agentes.map(a=>`<div class="card"><div><span class="sem" style="background:${col[a.s]}"></span><b>${a.n}</b></div><div class="l" style="margin-top:8px">${a.d}</div></div>`).join('');
+document.getElementById('rows').innerHTML=d.pendientes.map(p=>`<tr><td>${p.id}</td><td>${p.a}</td><td>${p.f}</td><td><span class="tag ${p.r}">${p.r}</span></td><td>${p.rev}</td><td>${p.e}</td></tr>`).join('');
+document.getElementById('src').value=JSON.stringify(d,null,1);}
+render(demo);
+</script></body></html>

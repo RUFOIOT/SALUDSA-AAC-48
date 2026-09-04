@@ -1,0 +1,51 @@
+ticket_id,texto,categoria_esperada,prioridad_esperada,area_destino,contiene_dato_salud
+T001,No me han pagado el reembolso de la consulta del 12 de julio,reembolso,P2,Reembolsos,SI
+T002,Subí las facturas y el estado sigue en revisión hace 20 días,reembolso,P2,Reembolsos,SI
+T003,Me rechazaron el reembolso sin explicación,reembolso,P2,Reembolsos,SI
+T004,Necesito autorización para una resonancia que me pidió el médico,autorizacion,P1,Auditoría Médica,SI
+T005,¿Cuánto demora la autorización de cirugía?,autorizacion,P1,Auditoría Médica,SI
+T006,La clínica dice que no llega la autorización,autorizacion,P1,Auditoría Médica,SI
+T007,"Perdí mi carnet, ¿cómo saco otro?",carnet_credencial,P3,Servicio al Afiliado,NO
+T008,Mi credencial digital no abre en la app,carnet_credencial,P3,Servicio al Afiliado,NO
+T009,Quiero agregar a mi hijo recién nacido,carnet_credencial,P3,Servicio al Afiliado,NO
+T010,Quiero subir al Familiar Plus,cambio_plan,P3,Comercial,NO
+T011,¿Puedo bajar de plan sin penalidad?,cambio_plan,P3,Comercial,NO
+T012,"Cambié de trabajo, ¿mi plan corporativo sigue?",cambio_plan,P3,Comercial,NO
+T013,Llevo 40 minutos esperando en la línea,reclamo,P2,Calidad,NO
+T014,El asesor me prometió algo que no cumplió,reclamo,P2,Calidad,NO
+T015,Me cobraron dos veces este mes,reclamo,P2,Calidad,NO
+T016,¿Qué clínicas atienden en Manta?,red_medica,P3,Servicio al Afiliado,NO
+T017,¿El Dr. Andrade sigue en la red?,red_medica,P3,Servicio al Afiliado,NO
+T018,¿Cubren laboratorio en Loja?,red_medica,P3,Servicio al Afiliado,NO
+T019,No me han pagado el reembolso de la consulta del 12 de julio,reembolso,P2,Reembolsos,SI
+T020,Subí las facturas y el estado sigue en revisión hace 20 días,reembolso,P2,Reembolsos,SI
+T021,Me rechazaron el reembolso sin explicación,reembolso,P2,Reembolsos,SI
+T022,Necesito autorización para una resonancia que me pidió el médico,autorizacion,P1,Auditoría Médica,SI
+T023,¿Cuánto demora la autorización de cirugía?,autorizacion,P1,Auditoría Médica,SI
+T024,La clínica dice que no llega la autorización,autorizacion,P1,Auditoría Médica,SI
+T025,"Perdí mi carnet, ¿cómo saco otro?",carnet_credencial,P3,Servicio al Afiliado,NO
+T026,Mi credencial digital no abre en la app,carnet_credencial,P3,Servicio al Afiliado,NO
+T027,Quiero agregar a mi hijo recién nacido,carnet_credencial,P3,Servicio al Afiliado,NO
+T028,Quiero subir al Familiar Plus,cambio_plan,P3,Comercial,NO
+T029,¿Puedo bajar de plan sin penalidad?,cambio_plan,P3,Comercial,NO
+T030,"Cambié de trabajo, ¿mi plan corporativo sigue?",cambio_plan,P3,Comercial,NO
+T031,Llevo 40 minutos esperando en la línea,reclamo,P2,Calidad,NO
+T032,El asesor me prometió algo que no cumplió,reclamo,P2,Calidad,NO
+T033,Me cobraron dos veces este mes,reclamo,P2,Calidad,NO
+T034,¿Qué clínicas atienden en Manta?,red_medica,P3,Servicio al Afiliado,NO
+T035,¿El Dr. Andrade sigue en la red?,red_medica,P3,Servicio al Afiliado,NO
+T036,¿Cubren laboratorio en Loja?,red_medica,P3,Servicio al Afiliado,NO
+T037,No me han pagado el reembolso de la consulta del 12 de julio,reembolso,P2,Reembolsos,SI
+T038,Subí las facturas y el estado sigue en revisión hace 20 días,reembolso,P2,Reembolsos,SI
+T039,Me rechazaron el reembolso sin explicación,reembolso,P2,Reembolsos,SI
+T040,Necesito autorización para una resonancia que me pidió el médico,autorizacion,P1,Auditoría Médica,SI
+T041,¿Cuánto demora la autorización de cirugía?,autorizacion,P1,Auditoría Médica,SI
+T042,La clínica dice que no llega la autorización,autorizacion,P1,Auditoría Médica,SI
+T043,"Perdí mi carnet, ¿cómo saco otro?",carnet_credencial,P3,Servicio al Afiliado,NO
+T044,Mi credencial digital no abre en la app,carnet_credencial,P3,Servicio al Afiliado,NO
+T045,Quiero agregar a mi hijo recién nacido,carnet_credencial,P3,Servicio al Afiliado,NO
+T046,Quiero subir al Familiar Plus,cambio_plan,P3,Comercial,NO
+T047,¿Puedo bajar de plan sin penalidad?,cambio_plan,P3,Comercial,NO
+T048,"Cambié de trabajo, ¿mi plan corporativo sigue?",cambio_plan,P3,Comercial,NO
+T049,Llevo 40 minutos esperando en la línea,reclamo,P2,Calidad,NO
+T050,El asesor me prometió algo que no cumplió,reclamo,P2,Calidad,NO

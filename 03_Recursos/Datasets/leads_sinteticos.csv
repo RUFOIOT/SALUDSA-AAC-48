@@ -1,0 +1,61 @@
+lead_id,nombre,ciudad,edad,canal,plan_interes,intencion_declarada,personas_a_cubrir,etapa_hubspot,rn_asignado,score_esperado_1a5,siguiente_accion_esperada
+L001,Paola Bravo,Guayaquil,64,WhatsApp,Senior 60+,cambiar de plan,1,Nuevo,RN-07,3,Enviar comparativo y confirmar interés
+L002,Lorena Naranjo,Quito,26,WhatsApp,Esencial Individual,precio corporativo,1,Contactado,RN-07,5,Agendar llamada con RN en 24h
+L003,Pablo Andrade,Manta,38,Llamada entrante,Senior 60+,cambiar de plan,1,Contactado,RN-04,3,Enviar comparativo y confirmar interés
+L004,Francisco Naranjo,Manta,45,WhatsApp,Esencial Individual,solo curiosidad,1,Nuevo,RN-08,2,"Nutrir con contenido, reevaluar en 15 días"
+L005,Fernando Ríos,Loja,58,Referido RN,Esencial Individual,consultar cobertura,4,Contactado,RN-02,4,Enviar comparativo y confirmar interés
+L006,Cristina Guerrero,Ibarra,26,Web,Familiar Plus,consultar cobertura,1,Cotización enviada,RN-03,3,Enviar comparativo y confirmar interés
+L007,Fernando Salinas,Cuenca,47,Meta Ads,Corporativo PYME,cambiar de plan,5,Contactado,RN-03,3,Enviar comparativo y confirmar interés
+L008,Carlos Paredes,Quito,53,Web,Senior 60+,precio corporativo,5,Cotización enviada,RN-07,3,Calificar con 3 preguntas
+L009,Cristina Ríos,Ibarra,41,Meta Ads,Esencial Individual,comparar con competencia,1,Contactado,RN-05,3,Calificar con 3 preguntas
+L010,Karla Vera,Loja,32,Llamada entrante,Familiar Plus,cambiar de plan,5,Contactado,RN-03,4,Enviar comparativo y confirmar interés
+L011,Paola Salinas,Cuenca,56,WhatsApp,Senior 60+,cotizar plan,1,Negociación,RN-02,5,Agendar llamada con RN en 24h
+L012,Verónica Ochoa,Quito,48,Llamada entrante,Senior 60+,reclamo de afiliado actual,4,Nuevo,RN-05,1,"Derivar a Servicio al Afiliado, NO vender"
+L013,Mónica Mora,Manta,65,WhatsApp,Familiar Plus,cambiar de plan,3,Contactado,RN-02,3,Enviar comparativo y confirmar interés
+L014,Luis Ochoa,Quito,64,Llamada entrante,Familiar Plus,precio corporativo,1,Cotización enviada,RN-08,3,Calificar con 3 preguntas
+L015,Jorge Ríos,Guayaquil,25,Web,Esencial Individual,cambiar de plan,1,Nuevo,RN-08,3,Enviar comparativo y confirmar interés
+L016,Luis Guerrero,Machala,28,Meta Ads,Familiar Plus,reclamo de afiliado actual,4,Contactado,RN-04,1,"Derivar a Servicio al Afiliado, NO vender"
+L017,Mónica Zambrano,Ambato,43,Web,Senior 60+,reclamo de afiliado actual,4,Contactado,RN-02,1,"Derivar a Servicio al Afiliado, NO vender"
+L018,Andrea Zambrano,Quito,45,Llamada entrante,Esencial Individual,precio corporativo,4,Contactado,RN-02,2,Calificar con 3 preguntas
+L019,Sebastián Paredes,Cuenca,26,WhatsApp,Corporativo PYME,precio corporativo,2,Negociación,RN-04,5,Agendar llamada con RN en 24h
+L020,Francisco Vera,Machala,54,Meta Ads,Senior 60+,consultar cobertura,1,Negociación,RN-01,4,Enviar comparativo y confirmar interés
+L021,Diego Paredes,Ambato,67,WhatsApp,Senior 60+,solo curiosidad,5,Contactado,RN-08,2,"Nutrir con contenido, reevaluar en 15 días"
+L022,María José Torres,Guayaquil,32,Meta Ads,Senior 60+,cambiar de plan,3,Nuevo,RN-01,3,Enviar comparativo y confirmar interés
+L023,Gabriela Loor,Machala,29,Meta Ads,Familiar Plus,solo curiosidad,3,Nuevo,RN-03,2,"Nutrir con contenido, reevaluar en 15 días"
+L024,Pablo Bravo,Ibarra,48,Referido RN,Esencial Individual,cambiar de plan,3,Contactado,RN-04,4,Enviar comparativo y confirmar interés
+L025,Daniela Mora,Quito,42,WhatsApp,Familiar Plus,cotizar plan,5,Negociación,RN-03,5,Agendar llamada con RN en 24h
+L026,Jorge Vera,Guayaquil,27,Meta Ads,Esencial Individual,consultar cobertura,4,Contactado,RN-01,3,Enviar comparativo y confirmar interés
+L027,Daniela Paredes,Manta,63,Referido RN,Senior 60+,comparar con competencia,2,Negociación,RN-03,2,Calificar con 3 preguntas
+L028,Mónica Naranjo,Guayaquil,66,Referido RN,Familiar Plus,comparar con competencia,1,Nuevo,RN-04,2,Calificar con 3 preguntas
+L029,Francisco Guerrero,Cuenca,56,Meta Ads,Corporativo PYME,comparar con competencia,1,Negociación,RN-05,2,Calificar con 3 preguntas
+L030,Paola Guerrero,Guayaquil,63,Llamada entrante,Senior 60+,cambiar de plan,5,Nuevo,RN-03,3,Enviar comparativo y confirmar interés
+L031,Gabriela Salinas,Manta,41,Llamada entrante,Corporativo PYME,precio corporativo,5,Negociación,RN-05,3,Calificar con 3 preguntas
+L032,Daniela Peñafiel,Cuenca,27,Referido RN,Esencial Individual,cambiar de plan,1,Cotización enviada,RN-03,3,Enviar comparativo y confirmar interés
+L033,Paola Ochoa,Quito,52,Llamada entrante,Senior 60+,cotizar plan,1,Cotización enviada,RN-03,2,Calificar con 3 preguntas
+L034,Francisco Paredes,Ambato,51,WhatsApp,Familiar Plus,cambiar de plan,2,Nuevo,RN-06,3,Enviar comparativo y confirmar interés
+L035,Luis Ríos,Machala,59,Llamada entrante,Senior 60+,preexistencias,1,Nuevo,RN-03,3,Enviar comparativo y confirmar interés
+L036,Cristina Loor,Quito,45,Meta Ads,Senior 60+,cambiar de plan,1,Negociación,RN-04,3,Enviar comparativo y confirmar interés
+L037,Andrea Salinas,Ambato,36,Web,Senior 60+,cambiar de plan,1,Negociación,RN-06,3,Enviar comparativo y confirmar interés
+L038,Andrés Andrade,Quito,41,Web,Esencial Individual,comparar con competencia,5,Nuevo,RN-05,3,Calificar con 3 preguntas
+L039,Francisco Bravo,Loja,35,WhatsApp,Corporativo PYME,consultar cobertura,4,Negociación,RN-02,4,Enviar comparativo y confirmar interés
+L040,Andrea Ochoa,Ambato,48,Web,Familiar Plus,cotizar plan,5,Cotización enviada,RN-07,3,Calificar con 3 preguntas
+L041,Esteban Ochoa,Manta,28,Llamada entrante,Corporativo PYME,comparar con competencia,5,Negociación,RN-06,2,Calificar con 3 preguntas
+L042,Cristina Salinas,Cuenca,49,Llamada entrante,Corporativo PYME,preexistencias,1,Cotización enviada,RN-07,4,Enviar comparativo y confirmar interés
+L043,Karla Naranjo,Loja,59,Web,Esencial Individual,cambiar de plan,1,Negociación,RN-08,4,Enviar comparativo y confirmar interés
+L044,Luis Salinas,Guayaquil,52,Llamada entrante,Familiar Plus,reclamo de afiliado actual,5,Cotización enviada,RN-06,1,"Derivar a Servicio al Afiliado, NO vender"
+L045,Andrea Mora,Ambato,29,Web,Familiar Plus,precio corporativo,1,Negociación,RN-02,2,Calificar con 3 preguntas
+L046,Sebastián Vera,Ambato,53,Llamada entrante,Senior 60+,precio corporativo,5,Contactado,RN-01,3,Calificar con 3 preguntas
+L047,Carlos Ochoa,Ambato,30,Meta Ads,Senior 60+,preexistencias,5,Nuevo,RN-08,4,Enviar comparativo y confirmar interés
+L048,Andrés Torres,Cuenca,32,Llamada entrante,Senior 60+,comparar con competencia,3,Negociación,RN-08,3,Calificar con 3 preguntas
+L049,Jorge Guerrero,Ibarra,40,Web,Familiar Plus,reclamo de afiliado actual,5,Nuevo,RN-05,1,"Derivar a Servicio al Afiliado, NO vender"
+L050,Paola Cevallos,Ambato,39,Web,Corporativo PYME,comparar con competencia,4,Negociación,RN-03,2,Calificar con 3 preguntas
+L051,Pablo Mora,Ambato,37,Referido RN,Esencial Individual,solo curiosidad,2,Negociación,RN-07,2,"Nutrir con contenido, reevaluar en 15 días"
+L052,Francisco Guerrero,Machala,61,Llamada entrante,Senior 60+,solo curiosidad,3,Negociación,RN-04,1,"Nutrir con contenido, reevaluar en 15 días"
+L053,Cristina Andrade,Machala,55,Web,Familiar Plus,solo curiosidad,3,Contactado,RN-08,1,"Nutrir con contenido, reevaluar en 15 días"
+L054,Pablo Cevallos,Ibarra,32,Referido RN,Esencial Individual,cotizar plan,1,Contactado,RN-01,5,Agendar llamada con RN en 24h
+L055,Daniela Peñafiel,Machala,40,Web,Senior 60+,precio corporativo,3,Cotización enviada,RN-07,3,Calificar con 3 preguntas
+L056,Andrés Mora,Loja,40,Referido RN,Esencial Individual,cotizar plan,5,Contactado,RN-02,5,Agendar llamada con RN en 24h
+L057,Andrea Naranjo,Cuenca,65,WhatsApp,Senior 60+,precio corporativo,1,Contactado,RN-03,5,Agendar llamada con RN en 24h
+L058,Francisco Cevallos,Guayaquil,54,Llamada entrante,Esencial Individual,precio corporativo,3,Contactado,RN-05,3,Calificar con 3 preguntas
+L059,María José Naranjo,Ambato,30,Web,Esencial Individual,solo curiosidad,3,Nuevo,RN-05,1,"Nutrir con contenido, reevaluar en 15 días"
+L060,Francisco Zambrano,Loja,67,Llamada entrante,Senior 60+,cotizar plan,2,Nuevo,RN-07,3,Calificar con 3 preguntas
