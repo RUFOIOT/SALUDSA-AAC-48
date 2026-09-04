@@ -3,6 +3,16 @@
 
 Paquete completo para arrancar SAL-C1 el 14 de octubre de 2026. Combina el pensum de 48 h (certificación con suficiencia) con la estructura del AI Operator Cohort (6 capas, Obsidian, RCTFX, Show & Tell) y usa los agentes del proyecto SALUDSA — Isabel, Pep & Zizu y los subagentes HubSpot — como objeto de trabajo real.
 
+## 🛰️ Student Hub (sitio publicado)
+
+**[abre el Student Hub →](https://rufoiot.github.io/SALUDSA-AAC-48/)**
+
+Consola interactiva del cohorte: navega las 14 sesiones en una línea de tiempo por semana, cada una con su objetivo verificable, guion minuto a minuto (barra proporcional + detalle), vínculo con el proyecto SALUDSA y criterio de entregable — fiel al contenido de `02_Sesiones/*.md`, sin datos inventados. Incluye además Misión (documento rector), Recursos (RCTFX/Datasets/Obsidian), Capstones, Evaluación y Operación (cronograma, presupuesto, checklist y la consola de estado de S14 embebida en vivo).
+
+Código fuente del hub: `index.html` + `assets/` (`sessions-data.js`, `app.js`, `style.css`). Es un sitio estático sin build step — para editarlo, se modifica directamente y se publica hacia GitHub Pages (rama `main`, raíz del repo).
+
+> Las "sesiones gráficas" pedidas se implementaron como este hub interactivo (cada sesión es una vista cinematográfica navegable) en vez de 14 archivos `.md` estáticos adicionales — mayor fidelidad visual sin duplicar la fuente de verdad en `02_Sesiones/`.
+
 ## Empieza aquí
 1. `01_Programa/01_Programa_SALUDSA.md` — documento rector: adaptabilidad a medicina prepagada (confirmada con 3 condiciones), matriz regulatoria, mapa sesión → proyecto, calendario, roles, go/no-go.
 2. `06_Operacion/checklist_arranque.md` — lo que SALUDSA, ORION y Autoploy deben tener listo.
