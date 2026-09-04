@@ -1,5 +1,5 @@
 # S14 · Arquitecturas multi-agente y automatización del proceso — consola de estado SALUDSA
-**Semana 7 · Vie 27 nov · Módulo 9 · Capas: HTML Artifacts + Governance · BLOQUEANTE · Agente relacionado: los tres subagentes HubSpot, Isabel, Pep & Zizu**
+**Semana 7 · Mié 18 nov · 16:00–18:00 · Módulo 9 · Capas: HTML Artifacts + Governance · BLOQUEANTE · Agente relacionado: los tres subagentes HubSpot, Isabel, Pep & Zizu**
 
 ## Objetivo verificable
 Cada participante entrega el diagrama de arquitectura de su capstone con modos de fallo, límites numéricos y aprobador con cargo; el grupo publica la **consola de estado de agentes SALUDSA v1** como artifact.

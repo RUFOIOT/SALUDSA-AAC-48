@@ -142,7 +142,7 @@ function sessionNode(s){
       el("span",{class:"n-code"}, s.code),
       el("span",{class:"n-date"}, s.fecha)
     ),
-    el("div",{class:"n-title"}, s.title),
+    el("div",{class:"n-title"}, el("span",{class:"session-icon"}, DIAGRAM_ICON[s.code]||""), s.title),
     el("div",{class:"n-foot"},
       el("span",{class:"n-capa"}, el("span",{class:"sw"}), s.capa),
       s.bloqueante ? el("span",{class:"n-block"},"BLOQUEANTE") : el("span",null, s.modulo)
@@ -171,7 +171,7 @@ registerView("sesion", (code)=>{
   const idx = SESSIONS.findIndex(s=>s.code===code);
   const s = SESSIONS[idx] || SESSIONS[0];
   const prev = SESSIONS[idx-1], next = SESSIONS[idx+1];
-  const totalMin = 180;
+  const totalMin = Number(s.agenda[s.agenda.length-1].min.split(/[–-]/).pop());
 
   const wrap = el("div", {class:"deck"},
     el("button",{class:"deck-back","data-nav":"mapa"}, "← Volver al mapa de sesiones"),
@@ -196,6 +196,11 @@ registerView("sesion", (code)=>{
         el("p",null,"Manual de práctica: teoría, recursos, guion del aula y laboratorio con criterio de aceptación.")
       )
     ),
+
+    DIAGRAMS[s.code] ? el("div",{class:"deck-block"},
+      el("span",{class:"db-label"}, (DIAGRAM_ICON[s.code]||"")+" Cómo se ve"),
+      el("div",{class:"diagram-card"}, el("div",{html:getDiagram(s.code)}))
+    ) : "",
 
     el("div",{class:"deck-block"},
       el("span",{class:"db-label"},"Objetivo verificable"),

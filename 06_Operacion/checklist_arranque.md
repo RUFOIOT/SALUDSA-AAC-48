@@ -1,14 +1,14 @@
-# Checklist de arranque — qué hace falta para empezar el 14 de octubre
+# Checklist de arranque — qué hace falta para empezar el 5 de octubre
 ## SALUDSA (Nicolás González / Sonia Checa)
-- [ ] 12 participantes con nombre, cargo, correo y carril (formulario cerrado 9 oct)
+- [ ] 12 participantes con nombre, cargo, correo y carril (formulario cerrado 30 sep)
 - [ ] Fecha de S02 con Auditoría Médica confirmada
-- [ ] KB de planes en aprobación (Comercial + Legal); compromiso de entrega antes del 30 oct
+- [ ] KB de planes en aprobación (Comercial + Legal); compromiso de entrega antes del 21 oct
 - [ ] Decisión de datos: anonimizados con autorización DPO, o sintéticos
 - [ ] Sandbox HubSpot / pipeline de pruebas con las 4 propiedades del proyecto
 - [ ] Planes claude.ai adquiridos o autorizados
-- [ ] Show & Tell 11 dic bloqueado en agenda de Dirección Comercial
+- [ ] Show & Tell 2 dic bloqueado en agenda de Dirección Comercial
 ## ORION (Felipe Salgado)
-- [ ] Revalidar docs oficiales (modelos, Claude Code, API, planes) — semana del 5 oct
+- [ ] Revalidar docs oficiales (modelos, Claude Code, API, planes) — semana del 28 sep
 - [ ] Correr los 14 labs en entorno limpio
 - [ ] Workspaces SALUDSA-Comercial / Servicio / Conocimiento creados con FAQ sintética
 - [ ] Repositorio plantilla `saludsa-supervision-template` publicado

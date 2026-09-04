@@ -1,5 +1,5 @@
 # S07 · Claude Cowork: delegar trabajo completo con punto de control
-**Semana 4 · Mié 4 nov · Módulo 5 · Capa: Automations · Agente relacionado: Pep & Zizu, supervisión de Isabel**
+**Semana 4 · Lun 26 oct · 16:00–18:00 · Módulo 5 · Capa: Automations · Agente relacionado: Pep & Zizu, supervisión de Isabel**
 
 ## Objetivo verificable
 Cada participante delega una tarea multipaso real (≥ 3 pasos) con archivos de entrada y salida, un punto de control humano explícito y comparación de minutos manuales vs. con flujo.

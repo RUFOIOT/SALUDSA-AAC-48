@@ -1,5 +1,5 @@
 # S06 · Claude.ai: Projects, Artifacts, memoria y Claude Design
-**Semana 3 · Vie 30 oct · Módulo 5 · Capa: Workspaces · Agente relacionado: Pep & Zizu, RN**
+**Semana 3 · Mié 21 oct · 16:00–18:00 · Módulo 5 · Capa: Workspaces · Agente relacionado: Pep & Zizu, RN**
 
 ## Objetivo verificable
 Cada participante monta un Project con instrucciones RCTFX y ≥ 5 documentos de la KB **aprobada**, y produce un artifact usable por un compañero sin explicación.

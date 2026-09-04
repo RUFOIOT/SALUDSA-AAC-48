@@ -1,5 +1,5 @@
 # S12 · RAG I: ingesta, fragmentación, embeddings y recuperación — la KB de planes con versión
-**Semana 6 · Vie 20 nov · Módulo 8 · Capa: Knowledge Bases · Agente relacionado: Isabel, RAG de Servicio**
+**Semana 6 · Mié 11 nov · 16:00–18:00 · Módulo 8 · Capa: Knowledge Bases · Agente relacionado: Isabel, RAG de Servicio**
 
 ## Objetivo verificable
 Cada participante monta un pipeline RAG sobre ≥ 20 documentos (KB aprobada o FAQ sintética + documentos de su área), con fragmentación justificada, metadatos de `area`, `version`, `vigencia`, `sensibilidad`, y 5 consultas con fragmentos visibles y citación.

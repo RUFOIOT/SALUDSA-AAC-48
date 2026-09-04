@@ -1,5 +1,5 @@
 # S05 · Prompt engineering II: evals y regresión — el set de Isabel
-**Semana 3 · Mié 28 oct · Módulo 4 · Capa: Agents · Agente relacionado: Isabel (P01)**
+**Semana 3 · Lun 19 oct · 16:00–18:00 · Módulo 4 · Capa: Agents · Agente relacionado: Isabel (P01)**
 
 ## Objetivo verificable
 Cada participante entrega un set de 20 casos con criterio binario, corrido contra v1 y v2 de su prompt, con acierto, costo por caso y latencia. El grupo consolida el **set de regresión de Isabel**.

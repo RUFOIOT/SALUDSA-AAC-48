@@ -1,5 +1,5 @@
 # S04 · Prompt engineering I: RCTFX aplicado al proceso comercial
-**Semana 2 · Vie 23 oct · Módulo 4 · Capa: Agents · Agente relacionado: subagente de hiperpersonalización, Pep & Zizu**
+**Semana 2 · Mié 14 oct · 16:00–18:00 · Módulo 4 · Capa: Agents · Agente relacionado: subagente de hiperpersonalización, Pep & Zizu**
 
 ## Objetivo verificable
 Cada participante entrega un prompt de producción v1 en RCTFX para un subproceso propio, con datos en etiquetas y formato verificable por máquina.

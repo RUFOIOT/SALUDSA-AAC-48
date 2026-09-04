@@ -1,5 +1,5 @@
 # S08 · Claude Code I: instalación, contexto del proyecto y primer flujo
-**Semana 4 · Vie 6 nov · Módulo 6 · Capa: Automations · BLOQUEANTE**
+**Semana 4 · Mié 28 oct · 16:00–18:00 · Módulo 6 · Capa: Automations · BLOQUEANTE**
 
 ## Objetivo verificable
 Todos salen con Claude Code operando sobre un repositorio propio con Git, archivo de contexto y una tarea completada y corregida.

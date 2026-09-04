@@ -1,7 +1,7 @@
 # SALUDSA-AAC-48 — Cohorte corporativa "Automatización y Agentes de IA con Claude"
 **Cliente:** SALUDSA (CLI-001) · **Emisor:** Vibramente / ORION AI Strategy · **Facilitador:** Felipe Salgado · **v1.0 · 4 sep 2026**
 
-Paquete completo para arrancar SAL-C1 el 14 de octubre de 2026. Combina el pensum de 48 h (certificación con suficiencia) con la estructura del AI Operator Cohort (6 capas, Obsidian, RCTFX, Show & Tell) y usa los agentes del proyecto SALUDSA — Isabel, Pep & Zizu y los subagentes HubSpot — como objeto de trabajo real.
+Paquete completo para arrancar SAL-C1 el 5 de octubre de 2026 (lunes y miércoles, 16:00–18:00 Ecuador). Combina el pensum de 48 h (certificación con suficiencia) con la estructura del AI Operator Cohort (6 capas, Obsidian, RCTFX, Show & Tell) y usa los agentes del proyecto SALUDSA — Isabel, Pep & Zizu y los subagentes HubSpot — como objeto de trabajo real.
 
 ## 🛰️ Student Hub (sitio publicado)
 

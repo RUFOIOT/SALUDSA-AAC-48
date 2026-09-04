@@ -1,5 +1,5 @@
 # S10 · API de Claude: mensajes, tool use, streaming y costo — clasificador con ruteo
-**Semana 5 · Vie 13 nov · Módulo 7 · Capa: MCP Connectors · BLOQUEANTE · Agente relacionado: subagentes HubSpot**
+**Semana 5 · Jue 5 nov · 16:00–18:00 · EXCEPCIÓN feriados 2-3 nov · Módulo 7 · Capa: MCP Connectors · BLOQUEANTE · Agente relacionado: subagentes HubSpot**
 
 ## Objetivo verificable
 Cada participante ejecuta un script (técnico) o flujo configurado (operador) que llama a la API, define una herramienta `rutear_ticket`, maneja el caso sin llamada y el error de límite de tasa, y estima el costo mensual con fórmula.

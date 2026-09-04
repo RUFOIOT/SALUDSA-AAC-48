@@ -1,5 +1,5 @@
 # S01 · Fundamentos de LLM y sistemas agénticos
-**Semana 1 · Mié 14 oct · 08:00–11:00 · Módulo 1 · Capa: (base) · Agente relacionado: los tres**
+**Semana 1 · Lun 5 oct · 16:00–18:00 · Módulo 1 · Capa: (base) · Agente relacionado: los tres**
 
 ## Objetivo verificable
 Al cerrar, cada participante explica en 90 segundos, con sus palabras, por qué Isabel puede inventar un precio si nadie se lo impide, y entrega la ficha de 3 procesos de su área.

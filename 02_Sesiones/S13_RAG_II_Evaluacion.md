@@ -1,5 +1,5 @@
 # S13 · RAG II: evaluación de recuperación y RAG agéntico — "no está en la base"
-**Semana 7 · Mié 25 nov · Módulo 8 · Capa: Knowledge Bases**
+**Semana 7 · Lun 16 nov · 16:00–18:00 · Módulo 8 · Capa: Knowledge Bases**
 
 ## Objetivo verificable
 Cada participante reporta métricas de recuperación antes y después de una corrección, distingue fallo de recuperación de fallo de generación, y demuestra que sus 3 preguntas sin respuesta en la base devuelven "no está en la base".

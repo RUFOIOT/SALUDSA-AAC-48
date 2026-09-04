@@ -1,5 +1,5 @@
 # S03 · Capacidades y limitaciones de Claude en escenarios reales de SALUDSA
-**Semana 2 · Mié 21 oct · Módulo 3 · Agente relacionado: Isabel, Clasificador de tickets**
+**Semana 2 · Lun 12 oct · 16:00–18:00 · Módulo 3 · Agente relacionado: Isabel, Clasificador de tickets**
 
 ## Objetivo verificable
 Cada participante corre 10 casos reales (o sintéticos autorizados) sobre una tarea de su área y reporta el porcentaje de acierto con al menos 2 casos límite y 1 fallo analizado.

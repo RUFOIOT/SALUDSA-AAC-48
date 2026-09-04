@@ -33,6 +33,7 @@ function buildSlides(code){
 
   // 1. Cover
   slides.push({kind:"cover", render:()=> el("div",{class:"slide s-cover"},
+    el("span",{class:"cover-icon"}, DIAGRAM_ICON[code]||"●"),
     el("div",{class:"s-kicker"}, el("span",{class:"n"},code), "· "+s.modulo+" · "+s.capa),
     el("h1", null, s.title),
     el("div",{class:"meta"},
@@ -53,6 +54,14 @@ function buildSlides(code){
     slides.push({kind:"marco", render:()=> el("div",{class:"slide"},
       el("div",{class:"s-kicker"}, "Marco conceptual"),
       el("div",{class:"s-para"}, t.objetivoBase)
+    )});
+  }
+
+  // 3b. Diagrama insignia de la sesión
+  if(DIAGRAMS[code]){
+    slides.push({kind:"diagrama", render:()=> el("div",{class:"slide"},
+      el("div",{class:"s-kicker"}, DIAGRAM_ICON[code]+" Cómo se ve"),
+      el("div",{class:"s-diagram", html:getDiagram(code)})
     )});
   }
 

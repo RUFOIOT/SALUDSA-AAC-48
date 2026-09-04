@@ -41,7 +41,7 @@ function render(){
   const t = THEORY[code] || {};
   const lab = LABS[code] || {};
   const prev = SESSIONS[idx-1], next = SESSIONS[idx+1];
-  const totalMin = 180;
+  const totalMin = Number(s.agenda[s.agenda.length-1].min.split(/[–-]/).pop());
 
   const recursos = RCTFX.filter(r=> r.sesion.includes(code));
   const datasets = DATASETS.filter(d=> d.uso.includes(code));
@@ -72,6 +72,10 @@ function render(){
       el("div",{class:"objetivo-box"}, s.objetivo),
       t.objetivoBase ? el("p",{style:"margin-top:14px;color:var(--mist);font-size:14px;line-height:1.7"}, t.objetivoBase) : ""
     ),
+
+    DIAGRAMS[code] ? section((DIAGRAM_ICON[code]||"")+" Cómo se ve",
+      el("div",{class:"diagram-card"}, el("div",{html:getDiagram(code)}))
+    ) : "",
 
     t.contenidos ? section("Teoría — qué necesitas saber",
       el("ul",{class:"checklist"}, ...t.contenidos.map(c=>el("li",null,c))),

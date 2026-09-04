@@ -113,18 +113,18 @@ Vault Obsidian: los 7 folders del cohort + `/Agentes-SALUDSA` (briefs, fronteras
 
 | Parámetro | Valor |
 |---|---|
-| Inicio | Miércoles 14 de octubre de 2026 |
-| Cierre sincrónico | Viernes 27 de noviembre de 2026 |
-| Días | Miércoles y viernes |
-| Horario | 08:00 – 11:00 (hora Ecuador) |
+| Inicio | Lunes 5 de octubre de 2026 |
+| Cierre sincrónico | Miércoles 18 de noviembre de 2026 |
+| Días | Lunes y miércoles |
+| Horario | 16:00 – 18:00 (hora Ecuador) |
 | Sesiones | 14 (S01–S14) |
-| Tutorías | T1 (13–14 nov), T2 (20–21 nov), T3 (25–26 nov) |
-| Examen de suficiencia | Miércoles 2 de diciembre, 08:00–09:30 |
-| Defensas de capstone | 3–4 de diciembre |
-| Show & Tell | Viernes 11 de diciembre, 10:00–12:00, con Dirección Comercial |
-| Emisión de certificados | 18 de diciembre |
+| Tutorías | T1 (6–7 nov), T2 (12–13 nov), T3 (17 nov) |
+| Examen de suficiencia | Lunes 23 de noviembre, 16:00–17:30 |
+| Defensas de capstone | 24–25 de noviembre |
+| Show & Tell | Miércoles 2 de diciembre, 10:00–12:00, con Dirección Comercial |
+| Emisión de certificados | 9 de diciembre |
 
-Sin cruce con los feriados de 2 y 3 de noviembre. Validar contra el calendario comercial de SALUDSA (cierres de mes) antes de confirmar. Los miércoles/viernes se eligieron para no coincidir con la cohorte Talent Scout (martes/jueves).
+**Excepción semana 5:** los feriados de Ecuador del 2 y 3 de noviembre (Día de los Difuntos e Independencia de Cuenca) caen lunes y martes esa semana. S09 se dicta el **miércoles 4 de noviembre** y S10 el **jueves 5 de noviembre**, ambas 16:00–18:00; desde S11 se retoma la cadencia normal de lunes y miércoles. Validar contra el calendario comercial de SALUDSA (cierres de mes) antes de confirmar.
 
 ---
 

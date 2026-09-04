@@ -1,5 +1,5 @@
 # S02 · Framework de seguridad de Anthropic, LOPDP y fronteras clínicas
-**Semana 1 · Vie 16 oct · Módulo 2 · Capa: Governance · Agente relacionado: Isabel (P01)**
+**Semana 1 · Mié 7 oct · 16:00–18:00 · Módulo 2 · Capa: Governance · Agente relacionado: Isabel (P01)**
 
 ## Objetivo verificable
 Cada participante clasifica sus 3 procesos (apto / apto con controles / no apto) con referencia a la política de uso y a la LOPDP, y el grupo entrega la **lista de fronteras clínicas** que Auditoría Médica firma esa misma semana.

@@ -1,5 +1,5 @@
 # S09 · Claude Code II: skills, subagentes, hooks y comandos — el supervisor de Isabel
-**Semana 5 · Mié 11 nov · Módulo 6 · Capa: Agents · Agente relacionado: Isabel (P01)**
+**Semana 5 · Mié 4 nov · 16:00–18:00 · EXCEPCIÓN feriados 2-3 nov · Módulo 6 · Capa: Agents · Agente relacionado: Isabel (P01)**
 
 ## Objetivo verificable
 Cada participante entrega una skill propia (con descripción que dispara correctamente en 3 casos y no dispara en 1) y un subagente con alcance limitado, versionados en su repositorio.

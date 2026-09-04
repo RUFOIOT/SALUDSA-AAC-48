@@ -1,5 +1,5 @@
 # S11 · MCP: conectores gestionados y servidor propio — gobierno de accesos
-**Semana 6 · Mié 18 nov · Módulo 7 · Capa: MCP Connectors · Agente relacionado: los tres subagentes HubSpot**
+**Semana 6 · Lun 9 nov · 16:00–18:00 · Módulo 7 · Capa: MCP Connectors · Agente relacionado: los tres subagentes HubSpot**
 
 ## Objetivo verificable
 Opción A (técnico): servidor MCP con una herramienta de lectura y una de escritura con confirmación. Opción B (operador): 2 conectores conectados a un flujo real con **matriz de permisos por rol**. Ambos entregan la matriz.
